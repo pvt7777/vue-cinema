@@ -1,0 +1,104 @@
+@media(max-width: 1150px) {
+    .series-cards-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .coll-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .films-cards{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .series-main_card{
+        background-position: center;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .series-mini-cards{
+        justify-content: center;
+    }
+    .nav-content__list{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        gap: 50px;
+        background: radial-gradient(circle, rgba(2,0,36,0.5018382352941176) 0%, rgba(4,4,68,0.5018382352941176) 19%, rgba(6,6,89,0.5018382352941176) 31%, rgba(9,9,121,0.5018382352941176) 50%, rgba(7,63,156,0.4962359943977591) 63%, rgba(4,125,197,0.4990371148459384) 78%, rgba(1,179,233,0.4990371148459384) 91%, rgba(0,212,255,0.5018382352941176) 99%);
+    }
+    .nav-content__list-link{
+        font-size: 35px;
+    }
+    .fa-old-republic{
+        display: block;
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        right: 5%;
+        z-index: 999;
+    }
+    .fa-old-republic:hover ~ .nav-content__list{
+        left: 0; 
+    }
+}
+
+@media (max-width: 500px) {
+    .trailer-content img{
+        width: 100%;
+    }
+    .header-content h1{
+        font-size: 50px;
+    }
+    .header-content div{
+        display: flex;
+        gap: 20px;
+    }
+    .btn{
+        margin: 0;
+        padding: 10px 28px;
+    }
+}
+
+@media (max-width: 800px) {
+   .series-main__card{
+       background: url(https://www.dailydot.com/wp-content/uploads/2019/05/game-of-thrones-dany-jon-throne-room.jpg) center /cover; 
+       height: 800px;
+   }
+   .wanda-vision{
+       background-position: center;
+   }
+   
+   .footer-content p{
+       text-align: center;
+   }
+}
+
+@media (max-width: 330px) {
+    .header-content h1{
+        font-size: 40px;
+    }
+    .nav-content img{
+        width: 80%;
+    }
+    
+    .fa-old-republic
+     {font-size: 30px;}
+     
+     .nav-content__list-link{
+         font-size: 24px;
+     }
+}
